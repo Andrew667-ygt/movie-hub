@@ -19,7 +19,7 @@ The React Movie App follows a component-based architecture using React.js. Here 
 
 4. MovieTrailer: Integrates with the YouTube URLs to fetch and display the movie trailer video. It utilizes the react-player to handle video playback.
 
-5.TMDB API: A movie API that provides movie data and serves as an intermediary between the Movie App and tmdb. It handles requests for movie information and retrieves YouTube trailer URLs.
+5. TMDB API: A movie API that provides movie data and serves as an intermediary between the Movie App and tmdb. It handles requests for movie information and retrieves YouTube trailer URLs.
 
  Prerequisites
 To run the React Movie App locally, you need to have the following software installed on your machine:
@@ -36,13 +36,7 @@ Follow these steps to install and set up the React Movie App:
    git clone https://github.com/Andrew667-ygt/movie-hub.git
    
 
-2. Navigate to the project directory:
-
-   
-   cd react-movie-app
-   
-
-3. Install the dependencies using npm:
+3. Navigate into the directory and install the dependencies using npm:
 	
   npm install
   
@@ -52,9 +46,9 @@ The React Movie App relies on the following dependencies:
 - react: JavaScript library for building user interfaces.
 - react-dom: Provides DOM-specific methods for React.
 - react-router-dom: Allows routing and navigation within the app.
-- axios: Promise-based HTTP client for making API requests.
+- Axios: Promise-based HTTP client for making API requests.
 - react-player: Embeds YouTube videos into React components.
-- react-icons:Provided the icons used in this app.
+- react-icons: Provided the icons used in this app.
 
 
 These dependencies are automatically installed when you run npm install.
@@ -68,4 +62,4 @@ This will start the development server and launch the application in your defaul
  Resources 
 - React documentation: https://reactjs.org/docs
 - Axios: https://axios-http.com/ 
-- tmdb Api :https://developers.themoviedb.org/3
+- TMDB Api :https://developers.themoviedb.org/3
